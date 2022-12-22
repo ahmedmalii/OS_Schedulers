@@ -6,8 +6,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <errno.h>
-
-
+//  edited
 const int MAX=1000;
 void getCurrentRunningProcess(){
    const char* path="/proc";
