@@ -7,11 +7,7 @@
 #include <string.h>
 #include <errno.h>
 //  edited
-// second
-const int MAX=1000;
-void getCurrentRunningProcess(){
    const char* path="/proc";
-    DIR *folder;
     int files=0; // num of files in proc
     struct dirent *entry; // directory entry to read entries in  from dir
     folder=opendir(path);
