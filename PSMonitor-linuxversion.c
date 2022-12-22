@@ -7,6 +7,7 @@
 #include <string.h>
 #include <errno.h>
 //  edited
+// dec
 const int MAX=1000;
 void getCurrentRunningProcess(){
    const char* path="/proc";
